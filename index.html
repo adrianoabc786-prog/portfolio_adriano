@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adriano Veloso | Estudante de Engenharia de Software</title>
+<meta name="description" content="Portfólio de Adriano Veloso, estudante de Engenharia de Software no UDF Centro Universitário de Brasília. Python, Java, C, SQL, Scrum e LGPD.">
+<meta name="author" content="Adriano Veloso">
+<meta property="og:title" content="Adriano Veloso | Engenharia de Software">
+<meta property="og:description" content="Estudante e Embaixador de Engenharia de Software em busca de estágio.">
+<meta name="theme-color" content="#0c0c10">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237c6cff'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'%3EAV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+
+<header class="header" id="header">
+  <div class="wrap nav">
+    <a href="#inicio" class="logo" aria-label="Adriano Veloso, início">AV<span>.</span></a>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a><a href="#demos">Demos</a><a href="#experiencia">Experiência</a><a href="#contato">Contato</a>
+    </nav>
+    <div class="tools">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Alternar tema claro/escuro">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a class="btn btn-sm" id="cvBtn" href="assets/documents/curriculo.pdf" download="Curriculo_Adriano_Veloso.pdf">Baixar currículo</a>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="inicio">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="orb" aria-hidden="true"></div>
+  <div class="wrap hero-in hero-grid">
+    <div class="hero-text">
+    <p class="chip"><i></i> Disponível para estágio</p>
+    <h1>Adriano Veloso</h1>
+    <p class="role"><span id="typed" aria-live="off"></span><b class="caret"></b></p>
+    <p class="lead">Estudante e Embaixador de Engenharia de Software, em transição de carreira. Foco em resolução de problemas, boas práticas de desenvolvimento e soluções digitais com tecnologia e inovação.</p>
+    <div class="cta">
+      <a class="btn" href="#projetos">Ver projetos</a>
+      <a class="btn ghost" href="#contato">Entrar em contato</a>
+    </div>
+  </div>
+    <figure class="photo">
+      <img src="assets/documents/fotografia-adriano.jpg" width="460" height="460" alt="Retrato de Adriano Veloso, de óculos, sorrindo levemente" fetchpriority="high">
+      <figcaption class="tag glass">Luziânia, GO</figcaption>
+    </figure>
+  </div>
+  </section>
+
+<section class="sec" id="sobre">
+  <div class="wrap two">
+    <div class="rv"><h2>Sobre mim</h2></div>
+    <div class="rv">
+      <p>Sou estudante de Engenharia de Software no UDF Centro Universitário de Brasília, atualmente no segundo semestre. Estou desenvolvendo conhecimentos em programação, banco de dados, lógica computacional e desenvolvimento de software.</p>
+      <p>Venho de anos de experiência em operações de varejo e distribuição, onde aprendi a lidar com volume, prazos e pessoas. Hoje levo essa vivência para a tecnologia, com interesse em resolução de problemas, inovação e soluções digitais.</p>
+      <p>Também sou Embaixador do curso de Engenharia de Software, participando de iniciativas de disseminação tecnológica, eventos e atividades comunitárias.</p>
+      <ul class="facts">
+        <li><b>UDF</b><span>Engenharia de Software, previsão 12/2029</span></li>
+        <li><b>Luziânia, GO</b><span>Brasil</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="habilidades">
+  <div class="wrap">
+    <h2 class="rv">Habilidades técnicas</h2>
+    <div class="cards three">
+      <article class="card glass rv"><h3>Linguagens</h3><ul class="tags"><li>Python</li><li>Java</li><li>C</li><li>SQL</li></ul></article>
+      <article class="card glass rv"><h3>Ferramentas</h3><ul class="tags"><li>GitHub</li><li>Ferramentas de IA</li></ul></article>
+      <article class="card glass rv"><h3>Conhecimentos</h3><ul class="tags"><li>Lógica de Programação</li><li>Metodologias Ágeis</li><li>Scrum</li><li>LGPD</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="projetos">
+  <div class="wrap">
+    <h2 class="rv">Projetos</h2>
+    <p class="note rv">Três projetos desenvolvidos e testados localmente, com o código na pasta <code>projects/</code> deste portfólio. Eles <strong>ainda não foram publicados no GitHub</strong>; os botões de repositório serão ativados quando eu cadastrar os links.</p>
+    <div class="filters rv" role="group" aria-label="Filtrar projetos">
+      <button type="button" class="f active" data-f="todos">Todos</button>
+      <button type="button" class="f" data-f="c">C</button>
+      <button type="button" class="f" data-f="python">Python</button>
+      <button type="button" class="f" data-f="java">Java</button>
+      <button type="button" class="f" data-f="web">Desenvolvimento Web</button>
+    </div>
+    <div class="cards three" id="projectGrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="demos">
+  <div class="wrap">
+    <h2 class="rv">Demonstrações interativas</h2>
+    <p class="note rv">Versões em JavaScript para experimentar o conceito de cada projeto no navegador. <strong>Não são os programas originais</strong> em C, Python e Java: cada aviso abaixo explica a diferença.</p>
+    <div class="tabs" role="tablist" aria-label="Demonstrações">
+      <button class="tab active" role="tab" aria-selected="true" data-tab="qr" type="button">Text2QR</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="ls" type="button">LinkShort</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="tf" type="button">TaskFlow</button>
+    </div>
+
+    <div class="panel glass" id="tab-qr" role="tabpanel">
+      <p class="warn">Gera QR Codes reais no navegador com a biblioteca qrcode-generator. O programa original em C usa libqrencode e roda no terminal.</p>
+      <div class="qr-grid">
+        <div class="stack">
+          <label for="qrText">Texto ou URL</label>
+          <textarea id="qrText" rows="4" maxlength="1000" placeholder="https://exemplo.com ou qualquer texto, com acentuação"></textarea>
+          <p class="err" id="qrErr" role="alert"></p>
+          <div class="row"><button class="btn btn-sm" id="qrGen" type="button">Gerar QR Code</button>
+            <button class="btn btn-sm ghost" id="qrSvg" type="button" disabled>Baixar SVG</button>
+            <button class="btn btn-sm ghost" id="qrPng" type="button" disabled>Baixar PNG</button>
+            <button class="btn btn-sm ghost" id="qrCopy" type="button" disabled>Copiar texto original</button></div>
+        </div>
+        <div class="qr-out" id="qrOut" aria-live="polite"><span class="mut">O QR Code aparece aqui.</span></div>
+      </div>
+    </div>
+
+    <div class="panel glass" id="tab-ls" role="tabpanel" hidden>
+      <p class="warn">Simulação no navegador, <strong>não é um serviço online</strong>. O backend Flask não está publicado: o link curto abaixo só funciona se o app estiver rodando em <code>localhost:5000</code> com os mesmos dados. Aqui você testa a validação, a geração do código e o histórico (salvo no seu navegador).</p>
+      <form class="row" id="lsForm" novalidate>
+        <input id="lsUrl" placeholder="URL original" aria-label="URL original" required>
+        <input id="lsCode" placeholder="Código (opcional)" maxlength="32" aria-label="Código personalizado">
+        <button class="btn btn-sm" type="submit">Gerar link curto</button>
+      </form>
+      <p class="err" id="lsErr" role="alert"></p>
+      <ul class="list" id="lsList"></ul>
+    </div>
+
+    <div class="panel glass" id="tab-tf" role="tabpanel" hidden>
+      <p class="warn">Os dados ficam no <code>localStorage</code> do seu navegador. A aplicação Java original grava em arquivo (<code>data/tasks.tsv</code>), de forma independente.</p>
+      <form class="row" id="tfForm" novalidate>
+        <input id="tfTitle" placeholder="Título da tarefa" maxlength="120" aria-label="Título" required>
+        <input id="tfCat" placeholder="Categoria" maxlength="30" aria-label="Categoria">
+        <select id="tfPri" aria-label="Prioridade"><option value="LOW">Baixa</option><option value="MEDIUM" selected>Média</option><option value="HIGH">Alta</option></select>
+        <button class="btn btn-sm" type="submit">Adicionar</button>
+      </form>
+      <p class="err" id="tfErr" role="alert"></p>
+      <div class="row"><input id="tfSearch" type="search" placeholder="Buscar por título" aria-label="Buscar">
+        <select id="tfFilter" aria-label="Filtrar prioridade"><option value="">Todas as prioridades</option><option value="LOW">Baixa</option><option value="MEDIUM">Média</option><option value="HIGH">Alta</option></select>
+        <span class="mut" id="tfStat"></span></div>
+      <div class="kanban" id="tfBoard"></div>
+    </div>
+  </div>
+</section>
+
+<dialog id="projModal" aria-labelledby="pmTitle"><div class="pm"><button class="icon-btn pm-x" id="pmClose" type="button" aria-label="Fechar">✕</button><div id="pmBody"></div></div></dialog>
+
+<section class="sec" id="experiencia">
+  <div class="wrap">
+    <h2 class="rv">Experiência profissional</h2>
+    <ol class="timeline">
+      <li class="rv"><time>05/2026 – Atual</time><h3>Promotor de Vendas</h3><p class="org">Mega Fox Distribuição</p>
+        <ul><li>Análise de requisitos e satisfação do usuário.</li><li>Atuação em processos de distribuição com foco em resultados e negociação.</li></ul></li>
+      <li class="rv"><time>06/2024 – 06/2026</time><h3>Encarregado de Caixa Central</h3><p class="org">Carrefour</p>
+        <ul><li>Gestão de fluxo de caixa em alto volume e resolução ágil de problemas operacionais.</li><li>Coordenação de equipe e controle de processos de fechamento diário.</li></ul></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="formacao">
+  <div class="wrap">
+    <h2 class="rv">Formação e atividades</h2>
+    <div class="cards three">
+      <article class="card glass rv"><h3>Formação</h3><p><strong>Engenharia de Software</strong><br>UDF Centro Universitário de Brasília</p><p class="mut">2º semestre. Previsão de conclusão: dezembro de 2029.</p></article>
+      <article class="card glass rv"><h3>Atividades extracurriculares</h3>
+        <p><strong>Embaixador de Engenharia de Software</strong> <span class="mut">(09/26 – Atual)</span></p>
+        <p><strong>Projeto de Extensão: Jogos de Comunidade (voluntário)</strong> <span class="mut">(09/26 – Atual)</span><br>Oficinas com Magic: The Gathering para trabalhar raciocínio lógico, estratégia e inclusão social.</p></article>
+      <article class="card glass rv"><h3>Cursos complementares</h3>
+        <p><strong>Agentes de IA e Fluência</strong><br>FIAP / Fundação Bradesco <span class="badge">cursando</span></p>
+        <p><strong>Metodologias Ágeis</strong><br>Coursera</p>
+        <p><strong>Conformidade com a LGPD</strong><br>Fundação Bradesco</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="contato">
+  <div class="wrap two">
+    <div class="rv">
+      <h2>Contato</h2>
+      <p>Busco uma oportunidade de estágio para aplicar o que estou aprendendo em Python, Java e SQL.</p>
+      <ul class="links">
+        <li><a href="mailto:adrianoabc786@gmail.com">adrianoabc786@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/adriano-veloso-46aa7324b" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/adrianoabc786-prog" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+      <a class="btn wa" id="waBtn" href="https://wa.me/5561981889156?text=Ol%C3%A1%20Adriano%2C%20vi%20seu%20portf%C3%B3lio!" target="_blank" rel="noopener noreferrer">Conversar no WhatsApp</a>
+    </div>
+    <form class="glass form rv" id="form" novalidate>
+      <label>Nome<input name="nome" type="text" autocomplete="name" required minlength="3"><small></small></label>
+      <label>E-mail<input name="email" type="email" autocomplete="email" required><small></small></label>
+      <label>Mensagem<textarea name="msg" rows="5" required minlength="10"></textarea><small></small></label>
+      <button class="btn" type="submit">Abrir no meu e-mail</button>
+      <p class="status" id="status" role="status"></p>
+      <p class="mut tiny">Este site não tem servidor: ao validar, o formulário abre seu aplicativo de e-mail com a mensagem pronta.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap"><span>© <span id="year"></span> Adriano Veloso</span><a href="#inicio">Voltar ao início</a></div></footer>
+<button class="top" id="topBtn" type="button" aria-label="Voltar ao topo"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/vendor/qrcode.js"></script>
+<script src="js/script.js"></script>
+<script src="js/demos.js"></script>
+</body>
+</html>
