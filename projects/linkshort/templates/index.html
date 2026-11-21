@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkShort</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main>
+<h1>LinkShort</h1>
+<section class="stats" id="stats"></section>
+<form id="form" class="card"><input id="url" placeholder="Cole a URL original" required aria-label="URL original">
+<input id="code" placeholder="Código personalizado (opcional)" maxlength="32" aria-label="Código personalizado">
+<button>Encurtar</button></form>
+<p id="msg" role="status"></p>
+<div class="bar"><input id="q" type="search" placeholder="Pesquisar links" aria-label="Pesquisar"><select id="sort" aria-label="Ordenar"><option value="recent">Mais recentes</option><option value="visits">Mais acessados</option></select></div>
+<div id="list"></div>
+<section class="card"><h2>Mais acessados</h2><ol id="top"></ol><h2>Acessos nos últimos dias</h2><ul id="hist"></ul></section>
+</main><script src="/static/app.js"></script></body></html>
